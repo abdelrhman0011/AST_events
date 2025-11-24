@@ -3,7 +3,7 @@ import 'registration_button.dart';
 import 'dart:html' as html;
 
 
-class RegistrationSection extends StatelessWidget {
+class RegistrationSection extends StatelessWidget { 
   const RegistrationSection({super.key});
   void openLink(String url) {
     html.window.open(url, '_blank'); 

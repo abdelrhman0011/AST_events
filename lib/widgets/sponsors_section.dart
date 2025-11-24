@@ -20,10 +20,10 @@ class _SponsorsSectionState extends State<SponsorsSection> {
   final List<String> sponsorLogos = [
     'assets/logo.png',
     'assets/sponser1.svg',
-    'assets/sponser2.svg',
-    'assets/sponser3.svg',
-    'assets/sponser4.svg',
-    'assets/sponser5.svg',
+     'assets/sponser2.svg',
+    
+    
+   
   ];
 
   @override

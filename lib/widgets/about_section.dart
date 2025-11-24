@@ -36,9 +36,11 @@ class AboutSection extends StatelessWidget {
                 Flexible(
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(12),    
-                    child: Image.asset(
-                      "assets/poster.jpg",
-                      fit: BoxFit.cover,
+                    child: Center(
+                      child: Image.asset(
+                        "assets/poster.png",
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
