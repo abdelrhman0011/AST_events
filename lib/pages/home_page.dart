@@ -43,8 +43,8 @@ class HomePage extends StatelessWidget {
             children: [
               const HeaderSection(),
               const RegistrationSection(),
-              const AboutSection(),
-              SponsorsSection(),
+             const AboutSection(),
+             SponsorsSection(),
               //const ScheduleSection(),
              // const LocationSection(),
               const GallerySection(),

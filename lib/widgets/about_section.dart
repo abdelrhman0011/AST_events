@@ -30,23 +30,23 @@ class AboutSection extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Flexible(
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(12),    
-                    child: Center(
-                      child: Image.asset(
-                        "assets/poster.png",
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
-                ),
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //   children: [
+            //     Flexible(
+            //       child: ClipRRect(
+            //         borderRadius: BorderRadius.circular(12),    
+            //         child: Center(
+            //           child: Image.asset(
+            //             "assets/poster.png",
+            //             fit: BoxFit.cover,
+            //           ),
+            //         ),
+            //       ),
+            //     ),
                 
-              ],
-            ),
+            //   ],
+            // ),
           ],
         ),
       ),
